@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "title": "It's Movie Time",
+    "img": "/images/itsmovietime.png",
+    "description": "영화 리뷰 플랫폼"
+  },
+  {
+    "id": "2",
+    "title": "알짜공모주",
+    "img": "/images/alzzaipo.png",
+    "description": "공모주 알림 서비스"
+  },
+  {
+    "id": "3",
+    "title": "애니휘트니스",
+    "img": "/images/anyfitness.png",
+    "description": "헬스기구 회사 홍보 웹사이트"
+  }
+]

@@ -1,3 +1,4 @@
+import Nav from "@/components/Nav";
 import "./globals.css";
 import type { Metadata } from "next";
 import Pretendard from "next/font/local";
@@ -20,23 +21,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={pretendard.className}>
-      <body>
+      <body className="mx-auto max-w-screen-xl flex flex-col  justify-center">
         <header>
-          <nav className=" pt-5 pb-2 px-5  h-15 flex justify-between border-solid border-b-2 ">
-            <h1 className="font-bold text-xl">
-              <Link href="/">태환's Blog</Link>
-            </h1>
-            <ul className="flex gap-10">
-              <li>
-                <Link href="/about">About</Link>
-              </li>
-              <li>
-                <Link href="/contact">Contact</Link>
-              </li>
-            </ul>
-          </nav>
+          <Nav />
         </header>
-        <div className="flex flex-col items-center">{children}</div>
+        {children}
       </body>
     </html>
   );
