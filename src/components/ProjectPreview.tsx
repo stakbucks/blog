@@ -3,12 +3,11 @@ import Image from 'next/image';
 
 type Props = {
   project: IProject;
-  onClick?: (id: string) => void;
 };
 
 export default function ProjectPreview({project}: Props) {
   return (
-    <div className='w-full max-w-sm h-60 mx-auto rounded-lg border-solid border-2 border-gray grid grid-rows-6  items-center shadow-lg'>
+    <div className='lg:w-80 mobile:w-full max-w-sm h-60 mx-auto rounded-lg border-solid border-2 border-gray grid grid-rows-6  items-center shadow-none hover:shadow-2xl  '>
       <div className='row-start-1 row-end-2 text-center '>
         <h1 className='text-xl'>{project.title}</h1>
       </div>

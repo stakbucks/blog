@@ -29,6 +29,9 @@ const config: Config = {
         '2xl': '1536px',
         // => @media (min-width: 1536px) { ... }
       },
+      zIndex: {
+        '0': '0',
+      },
     },
   },
   plugins: [],

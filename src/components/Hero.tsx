@@ -31,15 +31,25 @@ export default function Hero() {
             {'안녕하세요. 문제해결형 개발자 황태환입니다.'}
           </h3>
         </div>
-        <ul className='flex gap-5 items-center'>
+        <ul className='flex gap-auto items-center'>
           <li>
             <Link href={GITHUB_LINK}>
-              <Image alt='깃허브 로고' src={githubLogo} width={45} />
+              <Image
+                alt='깃허브 로고'
+                src={githubLogo}
+                width={45}
+                className='w-4/5'
+              />
             </Link>
           </li>
           <li>
             <Link href={VELOG_LINK}>
-              <Image alt='깃허브 로고' src={velogLogo} width={35} />
+              <Image
+                alt='깃허브 로고'
+                src={velogLogo}
+                width={35}
+                className='w-3/5'
+              />
             </Link>
           </li>
         </ul>
